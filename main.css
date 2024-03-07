@@ -1,0 +1,91 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #fff;
+}
+#ssilka_1{
+  padding: 20px;
+  height: 200px;
+  background: rgba(230, 255, 255);
+}
+#ssilka_2{
+  padding: 20px;
+  height: 200px;
+  background: rgba(255, 230, 255);
+}
+#ssilka_3{
+  padding: 20px;
+  height: 800px;
+  background: rgba(255, 255, 230);
+}
+.header__logo{
+  height: 40px;
+  width: 200px;
+}
+body{
+  background-color: #fff;
+  font-family: 'Raleaway', sans-serif;
+  color: #213053;
+  margin: 0;
+}
+a{
+  font-size: 15xp;
+  font-weight: 800;
+  text-decoration: none;
+  color: #213053
+}
+header a{
+  font-size: 10px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+button{
+  font-family: 'Raleaway', sans-serif;
+  color: #fff;
+  background-color: #23a030;
+  font-size: 15px;
+  font-weight: 800;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgb(52 213 68 / 75%);
+  padding: 10px;
+}
+.about__sun-image{
+  height: 50ps;
+  width: 50px;
+}
+.about__image{
+  height: 130px;
+  width: 200px;
+}
+.about{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: url('img/back.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.about h1{
+  font-size: 30px;
+  line-height: 30px;
+}
+.about p{
+  font-size: 18px;
+  line-height: 20px;
+  opacity: 0.8;
+}
+.about button{
+  font-size: 15px;
+  border-radius: 7px;
+  padding: 10px 12px;
+  margin-top: 10px;
+}
+.about__info{
+  max-width: 100px;
+}
