@@ -5,21 +5,6 @@ header{
   padding: 10px;
   background: #fff;
 }
-#ssilka_1{
-  padding: 20px;
-  height: 200px;
-  background: rgba(230, 255, 255);
-}
-#ssilka_2{
-  padding: 20px;
-  height: 200px;
-  background: rgba(255, 230, 255);
-}
-#ssilka_3{
-  padding: 20px;
-  height: 800px;
-  background: rgba(255, 255, 230);
-}
 .header__logo{
   height: 40px;
   width: 200px;
@@ -88,4 +73,97 @@ button{
 }
 .about__info{
   max-width: 100px;
+}
+.form__container{
+  width: 300px;
+}
+.form{
+  background-color: #1D263A;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.form h1{
+  font-size: 30px;
+}
+.form p{
+  font-size: 18px;
+  opacity: 0.65;
+}
+.form__group{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.form form{
+  display: grid;
+  margin-top: 30px;
+  grid-gap: 20px;
+}
+label{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.form input, .form select{
+  font-size: 18px;
+  color: #213053;
+  height: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  border-radius: 8px;
+}
+.form__submit{
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 25px;
+}
+select{
+  appearance: none;
+}
+input{
+  outline: none;
+}
+button:hover{
+  background-color: #f6980c;
+  box-shadow: 0 5px 15px rgb(246 152 12 / 20%);
+  transition: background-color 0.3s ease-in;
+}
+footer{
+  padding-bottom: 90px;
+  padding-top: 90px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer__container{
+  display: flex;
+  justify-content: center;
+}
+.footer__copyright{
+  margin-top: 40px;
+  text-align: center;
+  opacity: 0.5;
+}
+.footer__group{
+  margin-left: 20px;
+}
+.footer__group h3{
+  font-size: 16px;
+  opacity: 0.6;
+  margin-bottom: 30px;
+}
+.footer__links{
+  display: flex;
+  flex-direction: column;
+}
+.footer__links a{
+  margin-bottom: 15px;
 }
