@@ -41,6 +41,18 @@ button{
 .about__sun-image{
   height: 50ps;
   width: 50px;
+  animation-name: sun;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes sun{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
 }
 .about__image{
   height: 130px;
@@ -57,12 +69,12 @@ button{
   background-size: cover;
 }
 .about h1{
-  font-size: 30px;
-  line-height: 30px;
+  font-size: 25px;
+  line-height: 25px;
 }
 .about p{
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 15px;
+  line-height: 15px;
   opacity: 0.8;
 }
 .about button{
@@ -99,11 +111,11 @@ button{
   text-align: left;
 }
 .form form{
+  margin-top: 50px;
   display: grid;
-  margin-top: 30px;
   grid-gap: 20px;
 }
-label{
+.form label{
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 8px;
@@ -112,10 +124,7 @@ label{
   font-size: 18px;
   color: #213053;
   height: 30px;
-  padding-top: 0px;
-  padding-bottom: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0 20px;
   border: none;
   border-radius: 8px;
 }
@@ -136,10 +145,7 @@ button:hover{
   transition: background-color 0.3s ease-in;
 }
 footer{
-  padding-bottom: 90px;
-  padding-top: 90px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 90px 20px;
   font-size: 16px;
   font-weight: 600;
 }
@@ -148,14 +154,14 @@ footer{
   justify-content: center;
 }
 .footer__copyright{
-  margin-top: 40px;
+  margin-top: 60px;
   text-align: center;
   opacity: 0.5;
 }
 .footer__group{
   margin-left: 20px;
 }
-.footer__group h3{
+.footer h3{
   font-size: 16px;
   opacity: 0.6;
   margin-bottom: 30px;
@@ -166,4 +172,8 @@ footer{
 }
 .footer__links a{
   margin-bottom: 15px;
+}
+.animation_1{
+  height: 100px;
+  background-color: rgb(255 255 255);
 }
