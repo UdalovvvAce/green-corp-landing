@@ -2,8 +2,11 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 5px;
   background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 .header__logo{
   height: 40px;
@@ -36,15 +39,18 @@ button{
   border-radius: 7px;
   cursor: pointer;
   box-shadow: 0 5px 15px rgb(52 213 68 / 75%);
-  padding: 10px;
+  padding: 5px;
 }
 .about__sun-image{
-  height: 50ps;
+  height: 50px;
   width: 50px;
   animation-name: sun;
   animation-duration: 10s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  position: absolute;
+  top: 175px;
+  left: 190px;
 }
 @keyframes sun{
   0%{
@@ -61,6 +67,9 @@ button{
   animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  position: relative;
+  top: 50px;
+  left: 20px;
 }
 @keyframes panel{
   0%{
@@ -97,6 +106,7 @@ button{
   border-radius: 7px;
   padding: 10px 12px;
   margin-top: 10px;
+  width: 130px;
 }
 .about__info{
   max-width: 100px;
@@ -191,4 +201,20 @@ footer{
 .animation_1{
   height: 100px;
   background-color: rgb(255 255 255);
+}
+@media (max-width=1024px){
+  .about{
+    padding: 115px 20px;
+  }
+  .about h1{
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .about__image{
+    width: 280px;
+  }
+  .about__sun-image{
+    width: 75px;
+    height: 75px;
+  }
 }
